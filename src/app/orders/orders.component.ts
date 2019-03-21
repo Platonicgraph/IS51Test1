@@ -110,7 +110,7 @@ export class OrdersComponent implements OnInit {
         'image': 'assets/sm_android.jpeg',
         'description': 'Android',
         'price': 150.00,
-        'quantity': 0
+        'quantity': 1
       });
     } else if (item === 'iphone') {
       this.orders.unshift({
@@ -118,7 +118,7 @@ export class OrdersComponent implements OnInit {
         'image': 'assets/sm_iphone.jpeg',
         'description': 'IPhone',
         'price': 200.00,
-        'quantity': 0
+        'quantity': 1
       });
     } else if (item === 'windows phone') {
       this.orders.unshift({
@@ -126,7 +126,7 @@ export class OrdersComponent implements OnInit {
         'image': 'assets/sm_windows.jpeg',
         'description': 'Windows Phone',
         'price': 110.00,
-        'quantity': 0
+        'quantity': 1
       });
     }
 
